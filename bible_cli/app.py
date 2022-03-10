@@ -24,13 +24,14 @@ class Translation(str, Enum):
     ALMEIDA = "almeida"
     RCCV = "rccv"
 
+
 def get_full_name(translation: Translation) -> str:
-    ''' Convert Translation Enum values to Full Translation Title.
-    
+    """Convert Translation Enum values to Full Translation Title.
+
     ### get_full_name
     Given a Translation Enum Value, convert it to its full translation's title.
-    '''
-    
+    """
+
     match translation:
         case Translation.CHEROKEE:
             return "Cherokee New Testament"
@@ -56,6 +57,7 @@ def get_full_name(translation: Translation) -> str:
 
 app = Typer(name="bible-cli")
 console = Console()
+
 
 @app.command()
 def main(
