@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bible-cli"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = ["Ian Kollipara <ian.kollipara@cune.org>"]
 
