@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bible-cli"
-version = "1.0.0"
+version = "1.0.1"
 description = "A Bible query command line tool"
 readme = "README.md"
 authors = ["Ian Kollipara <ian.kollipara@cune.org>"]
